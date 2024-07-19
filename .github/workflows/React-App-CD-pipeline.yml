@@ -24,5 +24,6 @@ jobs:
         npm run build
     - name: Deploy to Google App engine
       run: |
-        gcloud app deploy dev-app.yaml --quiet
+        gcloud config set interactive/hidden true
+        gcloud app deploy dev-app.yaml --service-account=kubernetes-admin@sample-427910.iam.gserviceaccount.com
         
