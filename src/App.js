@@ -10,7 +10,7 @@ const App = () => {
     // Function to fetch data from FastAPI backend
     const fetchFastApiData = async () => {
       try {
-        const response = await fetch('https://34.93.215.136/fastapi');
+        const response = await fetch('https://34.93.130.72/fastapi');
         if (!response.ok) {
           throw new Error('Failed to fetch data from FastAPI');
         }
@@ -24,7 +24,7 @@ const App = () => {
     // Function to fetch data from Django backend
     const fetchDjangoData = async () => {
       try {
-        const response = await fetch('https://34.93.215.136/django/test/');
+        const response = await fetch('https://34.93.130.72/django/test/');
         if (!response.ok) {
           throw new Error('Failed to fetch data from Django');
         }
