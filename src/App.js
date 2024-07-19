@@ -42,7 +42,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="text-center">Release V1 - React App Calling FastAPI and Django</h1>
+        <h1 className="text-center">Release V1.0 - React App Calling FastAPI and Django</h1>
         <div className="container">
           <div className="row">
             <div className="col-md-6">
